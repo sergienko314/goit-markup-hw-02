@@ -50,13 +50,12 @@ h2 {
     color: var(--primery-text-color);
 }
 /* button */
-.hero-style button {
+.hero-style .button {
 
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.8;
-letter-spacing: 0.06em;
 background-color: var(--accent-text-color);
 color: #FFFFFF;
 
@@ -140,7 +139,7 @@ address a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,17x;
+    line-height: 1,17;
     letter-spacing: 0.03em;
 
     
@@ -148,3 +147,21 @@ address a {
 footer .logo {
     color: #ffffff;
 }
+/* Project */
+
+.project-text-primery {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--title-text-color);
+    letter-spacing: 0.06em;
+}
+.project-text-assent {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #757575;
+    text-decoration: none;letter-spacing: 0.03em;
+}
+
+a {text-decoration: none;}
