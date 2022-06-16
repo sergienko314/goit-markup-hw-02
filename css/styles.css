@@ -136,22 +136,29 @@ ul {
 }
 /* footer */
 footer {
-    background-color: #2F303A;
+    background-color: #2F303A;   
 }
 
-address a {
-    text-decoration: none;
-    color: #FFFFFF;
+
+
+footer .logo {
+    color: #ffffff;
+}
+.footer-phone-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,17;
+    line-height: 1.7;
     letter-spacing: 0.03em;
-
-    
+    color: rgba(255, 255, 255, 0.6);
 }
-footer .logo {
-    color: #ffffff;
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 /* Project */
 
