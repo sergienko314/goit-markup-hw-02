@@ -142,6 +142,14 @@ ul {
 footer {
     background-color: #2F303A;
 }
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
 .footer-phone-link {
     font-style: normal;
     font-weight: 400;
@@ -160,6 +168,7 @@ footer {
     line-height: 1,17;
     letter-spacing: 0.03em;
 }
+
 footer .logo {
     color: #ffffff;
 }
