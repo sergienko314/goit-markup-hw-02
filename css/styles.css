@@ -1,25 +1,20 @@
-:root {
-    --primery-text-color:#757575;
-    --accent-text-color: #2196F3;
-    --title-text-color: #212121;
-}
-
 body {
     font-family: Roboto, sans-serif; 
     text-decoration: none;
     color: var(--primery-text-color);
     letter-spacing: 0.03em;
 }
-
+:root {
+    --primery-text-color:#757575;
+    --accent-text-color: #2196F3;
+    --title-text-color: #212121;
+}
 h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     color: var(--title-text-color);
-}
-a {
-    text-decoration: none;
 }
 
 
@@ -48,30 +43,31 @@ a {
     
 }
 .phone-link {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--primery-text-color);
-    
 }
 /* hero */
-.hero-style h1 {
-    text-transform: uppercase;
-}
-
 .hero-style .button {
 
-font-family: inherit;
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.8;
 background-color: var(--accent-text-color);
 color: #FFFFFF;
+
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
+.hero-style h1 {
+    text-transform: uppercase;
+}
+
 
 main {
     
@@ -142,16 +138,8 @@ ul {
 footer {
     background-color: #2F303A;
 }
-.footer-phone-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
 
-.address-link {
+address a {
     text-decoration: none;
     color: #FFFFFF;
     font-style: normal;
@@ -159,6 +147,8 @@ footer {
     font-size: 14px;
     line-height: 1,17;
     letter-spacing: 0.03em;
+
+    
 }
 footer .logo {
     color: #ffffff;
@@ -176,9 +166,24 @@ footer .logo {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
-    color: var(--primery-text-color);
+    color: #757575;
     text-decoration: none;letter-spacing: 0.03em;
 }
 
+a {text-decoration: none;}
 
+.site-nav .link {
+    text-transform: capitalize;
+  }
 
+  pre {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    color: #2a2a2a;
+    font-size: 16px;
+  }
+  
+  pre::first-letter {
+    font-family: 'Tahoma', serif;
+    font-size: 32px;
+    color: #f44336;
+  }
