@@ -175,7 +175,7 @@ footer .logo {
 }
 
 
-footer .footer-contact:hover {
+.footer-contact:hover {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -184,7 +184,7 @@ footer .footer-contact:hover {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-footer .footer-contact:focus {
+.footer-contact:focus {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
