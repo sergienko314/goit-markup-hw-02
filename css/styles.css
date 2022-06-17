@@ -21,8 +21,9 @@ h2 {
 ul {
     list-style: none;
 }
-
-
+a {
+    text-decoration: none;
+}
 /* heder */
 .header-style a {
     text-decoration: none;
@@ -86,7 +87,7 @@ ul {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height:1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -212,7 +213,7 @@ footer .logo {
     top: 174px;
 }
 .project-button:hover {
-    font-family: 'Roboto';
+    font-family: 'inherit';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -229,7 +230,7 @@ footer .logo {
     top: 174px;
 }
 .project-button:focus {
-    font-family: 'Roboto';
+    font-family: 'inherit';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
