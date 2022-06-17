@@ -9,21 +9,7 @@ body {
     --accent-text-color: #2196F3;
     --title-text-color: #212121;
 }
-h1 {
-    
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height:1,36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-    
-}
+
 h2 {
     font-weight: 700;
     font-size: 36px;
@@ -34,6 +20,9 @@ h2 {
 
 ul {
     list-style: none;
+}
+a {
+    text-decoration: none;
 }
 
 
@@ -53,25 +42,32 @@ ul {
     line-height: 1.14;
     color: var(--title-text-color);
 }
-.mail-link {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--accent-text-color);
-    
-}
-.phone-link {
+
+.contact-link {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--primery-text-color);
 }
+.contact-link:focus {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--accent-text-color);
+}
+.contact-link:hover {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--accent-text-color);
+}
 /* hero */
 .hero-style .button {
 
-    font-family: 'Roboto','inherit';
+    font-family:'inherit';
     font-style: normal;
     font-weight: 700;   
     font-size: 16px;
@@ -86,11 +82,18 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0px;
-
-
 }
 .hero-style h1 {
     text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
     
@@ -100,7 +103,7 @@ ul {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2px;
+    line-height: 1.2;
     text-decoration: none;
     color: var(--title-text-color);
 }
@@ -155,7 +158,8 @@ ul {
 }
 /* footer */
 footer {
-    background-color: #2F303A;   
+    background-color: #2F303A;  
+   
 }
 
 
@@ -163,23 +167,28 @@ footer {
 footer .logo {
     color: #ffffff;
 }
-.footer-phone-link {
+.footer-contact {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
-.footer-phone-link:hover {
+
+
+footer .footer-contact:hover {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.footer-phone-link:focus {
-    color: #FFFFFF;
-    background-color: var(--accent-text-color);
-    border: 0px;
-}
-.address-link {
+footer .footer-contact:focus {
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -190,7 +199,7 @@ footer .logo {
 /* Project */
 .project-button {
     
-    font-family: 'Roboto';
+    font-family: 'inherit';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -205,7 +214,7 @@ footer .logo {
     left: 576px;
     top: 174px;
 }
-.primer-project-button {
+.project-button:hover {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -222,7 +231,24 @@ footer .logo {
     left: 576px;
     top: 174px;
 }
-
+.project-button:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: var(--accent-text-color);
+    border: 0;
+    border-radius: 4px;
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    border: 0;
+}
 .project-text-primery {
     font-style: normal;
     font-weight: 700;
